@@ -87,7 +87,7 @@ plt.show()
 ```
 
 ##  Output
-<img width="830" height="480" alt="image" src="https://github.com/user-attachments/assets/bcd6527a-4bb7-4a23-9460-0f9cbfc106a9" />
+<img width="496" height="332" alt="image" src="https://github.com/user-attachments/assets/8924709a-27a3-419a-a51b-949ccd263a5e" />
 
 ### Image Translation
 - Original image is displayed  
@@ -102,7 +102,7 @@ plt.axis("on")
 plt.show()
 ```
 ## Output
-<img width="766" height="465" alt="image" src="https://github.com/user-attachments/assets/15311d70-aa9d-4504-828f-e66d29762d1b" />
+<img width="495" height="330" alt="image" src="https://github.com/user-attachments/assets/ebf1557d-9784-4a27-98bc-226dfe65967c" />
 
 ### Image Scaling
 - Original image is displayed  
@@ -118,7 +118,7 @@ plt.axis('off')
 ```
 
 ## Output:
-<img width="791" height="244" alt="image" src="https://github.com/user-attachments/assets/2e0cd56c-a312-4607-b587-c4ebe11edada" />
+<img width="550" height="181" alt="image" src="https://github.com/user-attachments/assets/d6704e63-d4c1-4f87-8fb1-c93791c368cf" />
 
 ### Image Shearing
 - Original image is displayed  
@@ -134,22 +134,7 @@ plt.axis('off')
 ```
 
 ## Output:
-<img width="833" height="464" alt="image" src="https://github.com/user-attachments/assets/ab38b356-d919-4e61-8c79-32500ec05bb4" />
-
-### Image Reflection
-- Original image is displayed  
-- Horizontally flipped image is displayed  
-- Vertically flipped image is displayed  
-- Both-axis flipped image is displayed  
-```py
-reflected_image = cv2.flip(image, 2)
-
-plt.imshow(cv2.cvtColor(reflected_image, cv2.COLOR_BGR2RGB))  
-plt.title("Reflected Image")  
-plt.axis('off')
-```
-## Output:
-<img width="765" height="483" alt="image" src="https://github.com/user-attachments/assets/b7a74543-7fd8-4e26-9a1c-0c585be3a670" />
+<img width="495" height="330" alt="image" src="https://github.com/user-attachments/assets/cd9eaf12-1f6b-4a23-b074-8195cffadc2f" />
 
 ### Image Rotation
 - Original image is displayed  
@@ -168,7 +153,7 @@ plt.axis('off')
 ```
 
 ## Output:
-<img width="879" height="482" alt="image" src="https://github.com/user-attachments/assets/1e51145a-0425-4ec2-aeef-00cf2633685b" />
+<img width="490" height="370" alt="image" src="https://github.com/user-attachments/assets/6fcd77cc-c6f9-4788-90ff-23f67bfc5188" />
 
 ---
 
